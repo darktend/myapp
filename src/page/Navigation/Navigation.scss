@@ -1,0 +1,9 @@
+.navigation{
+    padding: 10px;
+    &>ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+}
