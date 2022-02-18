@@ -8,7 +8,7 @@ import Products from '../../page/Products/Products';
 const Navbar = () => (
   <Routes>
     <Route path="/" element={<Head />}>
-      <Route element={<Cards />} />
+      {/* <Route element={<Cards />} /> */}
       <Route path="about" element={<About />} />
       <Route path="products" element={<Products />} />
     </Route>
